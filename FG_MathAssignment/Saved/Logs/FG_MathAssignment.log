@@ -4859,3 +4859,129 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.01.21-14.38.28:811][642]LogSavePackage: Moving '../../../../../../Users/xelez/OneDrive/Documents/GitHub/FG_MathAssignment/FG_MathAssignment/FG_MathAssignment/Saved/ThirdPersonExampleMap60A07E5742E6063125A69C955D9C80D0.tmp' to '../../../../../../Users/xelez/OneDrive/Documents/GitHub/FG_MathAssignment/FG_MathAssignment/FG_MathAssignment/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
 [2021.01.21-14.38.28:893][642]AssetCheck: New page: Asset Save: ThirdPersonExampleMap
 [2021.01.21-14.38.28:893][642]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.01.21-14.43.17:287][868]BlueprintLog: New page: Compile Orbit
+[2021.01.21-14.43.17:364][868]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2021.01.21-14.43.18:345][915]LogSavePackage: Moving '../../../../../../Users/xelez/OneDrive/Documents/GitHub/FG_MathAssignment/FG_MathAssignment/FG_MathAssignment/Saved/Orbit2619FC674733874D4D3C8EA9B4EFE9F3.tmp' to '../../../../../../Users/xelez/OneDrive/Documents/GitHub/FG_MathAssignment/FG_MathAssignment/FG_MathAssignment/Content/ThirdPersonBP/Orbit.uasset'
+[2021.01.21-14.43.18:364][915]AssetCheck: New page: Asset Save: Orbit
+[2021.01.21-14.43.18:364][915]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Orbit.Orbit
+[2021.01.21-14.43.20:199][ 15]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.21-14.43.20:212][ 15]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.21-14.43.20:212][ 15]PIE: New page: PIE session: ThirdPersonExampleMap (21 jan. 2021 16:43:20)
+[2021.01.21-14.43.20:212][ 15]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.01.21-14.43.20:222][ 15]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009867s)
+[2021.01.21-14.43.20:224][ 15]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.01.21-14.43.20:224][ 15]LogPlayLevel: PIE: World Init took: (0.001421s)
+[2021.01.21-14.43.20:224][ 15]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.011417s)
+[2021.01.21-14.43.20:253][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2021.01.21-14.43.20:255][ 15]LogAudio: Display: Creating Audio Device:                 Id: 67, Scope: Unique, Realtime: True
+[2021.01.21-14.43.20:255][ 15]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.21-14.43.20:255][ 15]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.21-14.43.20:255][ 15]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.21-14.43.20:255][ 15]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.21-14.43.20:255][ 15]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.21-14.43.20:255][ 15]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.21-14.43.20:255][ 15]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.21-14.43.20:255][ 15]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.21-14.43.20:255][ 15]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.21-14.43.20:255][ 15]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.21-14.43.20:258][ 15]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.21-14.43.20:258][ 15]LogAudioMixer: Display: 1: FrontRight
+[2021.01.21-14.43.20:273][ 15]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.01.21-14.43.20:274][ 15]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.21-14.43.20:274][ 15]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.21-14.43.20:274][ 15]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.21-14.43.20:275][ 15]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.21-14.43.20:275][ 15]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.01.21-14.43.20:275][ 15]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.01.21-14.43.20:286][ 15]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.01.21-14.43.20:287][ 15]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.01.21-14.43.20:287][ 15]LogInit: FAudioDevice initialized.
+[2021.01.21-14.43.20:287][ 15]LogAudio: Display: Audio Device (ID: 67) registered with world 'ThirdPersonExampleMap'.
+[2021.01.21-14.43.20:292][ 15]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.01.21-14.43.20:294][ 15]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2021.01.21-15.43.20
+[2021.01.21-14.43.20:295][ 15]LogWorld: Bringing up level for play took: 0.001379
+[2021.01.21-14.43.20:295][ 15]LogOnline: OSS: Creating online subsystem instance for: :Context_73
+[2021.01.21-14.43.20:297][ 15]PIE: Server logged in
+[2021.01.21-14.43.20:297][ 15]PIE: Play in editor total start time 0,087 seconds.
+[2021.01.21-14.43.25:212][306]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.21-14.43.25:212][306]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.01.21-14.43.25:213][306]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.21-14.43.25:213][306]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.21-14.43.25:228][306]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.21-14.43.25:237][306]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.21-14.43.25:259][306]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.21-14.43.25:259][306]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.21-14.43.25:259][306]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.21-14.43.25:274][306]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.21-14.43.25:278][306]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2021.01.21-14.43.25:313][307]LogPlayLevel: Display: Destroying online subsystem :Context_73
+[2021.01.21-14.43.27:534][432]Cmd: TRANSACTION UNDO
+[2021.01.21-14.43.27:534][432]LogEditorTransaction: Undo Change Number Pin Value
+[2021.01.21-14.43.28:082][447]Cmd: TRANSACTION UNDO
+[2021.01.21-14.43.28:082][447]LogEditorTransaction: Undo Change Number Pin Value
+[2021.01.21-14.48.29:628][698]BlueprintLog: New page: Compile Orbit
+[2021.01.21-14.48.29:696][698]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
+[2021.01.21-14.48.30:711][751]LogSavePackage: Moving '../../../../../../Users/xelez/OneDrive/Documents/GitHub/FG_MathAssignment/FG_MathAssignment/FG_MathAssignment/Saved/OrbitC81539204438EF48F94C7D985EF48D42.tmp' to '../../../../../../Users/xelez/OneDrive/Documents/GitHub/FG_MathAssignment/FG_MathAssignment/FG_MathAssignment/Content/ThirdPersonBP/Orbit.uasset'
+[2021.01.21-14.48.30:729][751]AssetCheck: New page: Asset Save: Orbit
+[2021.01.21-14.48.30:729][751]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Orbit.Orbit
+[2021.01.21-14.48.42:557][ 22]LogSlate: Window 'Color Picker' being destroyed
+[2021.01.21-14.48.43:756][ 93]BlueprintLog: New page: Compile Orbit
+[2021.01.21-14.48.43:815][ 93]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2021.01.21-14.48.44:623][134]LogSavePackage: Moving '../../../../../../Users/xelez/OneDrive/Documents/GitHub/FG_MathAssignment/FG_MathAssignment/FG_MathAssignment/Saved/Orbit7AB2153F464C89D9510EF7ADD4CB3681.tmp' to '../../../../../../Users/xelez/OneDrive/Documents/GitHub/FG_MathAssignment/FG_MathAssignment/FG_MathAssignment/Content/ThirdPersonBP/Orbit.uasset'
+[2021.01.21-14.48.44:640][134]AssetCheck: New page: Asset Save: Orbit
+[2021.01.21-14.48.44:640][134]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Orbit.Orbit
+[2021.01.21-14.48.46:523][240]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.21-14.48.46:536][240]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.21-14.48.46:536][240]PIE: New page: PIE session: ThirdPersonExampleMap (21 jan. 2021 16:48:46)
+[2021.01.21-14.48.46:536][240]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.01.21-14.48.46:546][240]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009661s)
+[2021.01.21-14.48.46:547][240]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.01.21-14.48.46:548][240]LogPlayLevel: PIE: World Init took: (0.001621s)
+[2021.01.21-14.48.46:548][240]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.011431s)
+[2021.01.21-14.48.46:577][240]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2021.01.21-14.48.46:579][240]LogAudio: Display: Creating Audio Device:                 Id: 68, Scope: Unique, Realtime: True
+[2021.01.21-14.48.46:579][240]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.21-14.48.46:579][240]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.21-14.48.46:579][240]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.21-14.48.46:579][240]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.21-14.48.46:579][240]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.21-14.48.46:579][240]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.21-14.48.46:579][240]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.21-14.48.46:579][240]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.21-14.48.46:579][240]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.21-14.48.46:579][240]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.21-14.48.46:583][240]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.21-14.48.46:583][240]LogAudioMixer: Display: 1: FrontRight
+[2021.01.21-14.48.46:597][240]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.01.21-14.48.46:598][240]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.21-14.48.46:598][240]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.21-14.48.46:598][240]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.21-14.48.46:598][240]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.21-14.48.46:598][240]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.01.21-14.48.46:598][240]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.01.21-14.48.46:611][240]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.01.21-14.48.46:611][240]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.01.21-14.48.46:611][240]LogInit: FAudioDevice initialized.
+[2021.01.21-14.48.46:611][240]LogAudio: Display: Audio Device (ID: 68) registered with world 'ThirdPersonExampleMap'.
+[2021.01.21-14.48.46:616][240]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.01.21-14.48.46:618][240]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2021.01.21-15.48.46
+[2021.01.21-14.48.46:619][240]LogWorld: Bringing up level for play took: 0.001554
+[2021.01.21-14.48.46:619][240]LogOnline: OSS: Creating online subsystem instance for: :Context_74
+[2021.01.21-14.48.46:621][240]PIE: Server logged in
+[2021.01.21-14.48.46:621][240]PIE: Play in editor total start time 0,088 seconds.
+[2021.01.21-14.48.49:261][394]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.21-14.48.49:261][394]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.01.21-14.48.49:261][394]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.21-14.48.49:262][394]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.21-14.48.49:276][394]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.21-14.48.49:285][394]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.21-14.48.49:307][394]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.21-14.48.49:307][394]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.21-14.48.49:308][394]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.21-14.48.49:323][394]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.21-14.48.49:326][394]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2021.01.21-14.48.49:365][395]LogPlayLevel: Display: Destroying online subsystem :Context_74
+[2021.01.21-14.49.14:724][527]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2021.01.21-14.49.14:748][527]LogSavePackage: Moving '../../../../../../Users/xelez/OneDrive/Documents/GitHub/FG_MathAssignment/FG_MathAssignment/FG_MathAssignment/Saved/ThirdPersonExampleMap_Auto6C67556AF4C0F2A077699AF8CF28A99B0.tmp' to '../../../../../../Users/xelez/OneDrive/Documents/GitHub/FG_MathAssignment/FG_MathAssignment/FG_MathAssignment/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto6.umap'
+[2021.01.21-14.49.14:753][527]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.057
+[2021.01.21-14.49.14:753][527]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.057
